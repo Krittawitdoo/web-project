@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+
+ font-family: 'Poppins', sans-serif;
+
+}
+
+.hey a{
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 15px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+.srs{
+
+  margin-left: 250px;
+  margin-top: 10vh;
+
+}
+
+.mapouter{
+  padding: 50px;
+  margin-left: 100px;
+}
+
+.container {
+width: 100%;
+height: 120vh;
+background-color: #800020;
+background-position: center;
+background-size: cover;
+box-sizing: border-box;
+}
+
+.ok1{
+
+width: 110vh;
+height: 75vh;
+
+
+}
+
+.navbar{
+  height: 7%;
+  display: flex;
+  align-items: center;
+}
+
+header {
+background-color:#F7C9B6;
+width: 100%;
+}
+
+.logo{
+width:50%;
+cursor: pointer;
+
+}
+
+
+nav{
+  flex:1;
+  text-align: right;
+  float: right;
+}
+
+
+
+nav ul li{
+list-style: none;
+display: inline-block;
+margin-right:  50px;
+
+}
+nav ul li a{
+   text-decoration: none;
+   color: black;
+   font-size: 16px;
+   font-weight: bold;
+
+
+}
+nav ul li a:hover{
+    color: #03a9f4;
+}
+
+
+
+
+.row{
+   display: flex;
+   height: 50%;
+   align-items: center;
+   margin-left: 20px;
+
+}
+
+h1{
+  color: white;
+  padding:50px 80px 80px;
+  margin-left: 150px;
+}
+
+p{
+color: white;
+font-size: 15px;
+line-height: 18px;
+
+}
+
+.col{
+margin-top:60px;
+padding: 50px 50px;
+}
+
+.col a
+{
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 60px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+
+.content{
+    display: flex;
+    min-height: 110vh;
+}
+.content section{
+    margin-top: 3vh;
+    margin-left: 20vh;
+	color: white;
+}
+
+.content .srs{
+    margin-left: 10vh;
+    padding-right: 5vh;
+
+}
+
+.col a:hover
+{
+  letter-spacing: 6px;
+}
+
+
+.content-form{
+    margin-top: 10rem;
+
+}
+
+.form{
+    margin-top: 28vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50%;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+	color: white;
+}
+
+.form .contact-form input{
+    width: 30rem;
+    background-color: transparent;
+	color: white;
+    border: 0px;
+    border: transparent;
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 2px solid #fff;
+}
+.form .contact-form input ~ span{
+    position: absolute;
+    left: 20px;
+    transition: 0.9s ease-in-out;
+    margin-top: 10px;
+}
+.form .contact-form input:focus ~span{
+    transform: translateY(-20px);
+    pointer-events: none;
+}
+.form .contact-form textarea{
+	color: white;
+    width: 30rem;
+    border: 0px;
+    background-color: transparent;
+    margin: 20px;
+    font-size: 17px;
+    border-bottom: 2px solid white;
+}
+.form .contact-form textarea ~ span
+{
+    position: absolute;
+    left: 20px;
+    margin-top: 10px;
+    transition: 0.9s ease-in-out;
+}
+.form .contact-form textarea:focus ~span{
+    transform: translateY(-20px);
+    pointer-events: none;
+}
+.form .contact-form input[type=submit]{
+	background-color: white;
+    color: #800020;
+    font-size: 18px;
+    width: 50%;
+    height: 40px;
+    margin-top: -5px;
+}
+.form .contact-form input[type=submit]:hover{
+    background-color: #F7C9B6;
+	color: white;
+}

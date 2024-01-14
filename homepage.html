@@ -1,0 +1,56 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="veiwport" content="width=device-width, initial-scale1.0">
+    <link rel="stylesheet" href="styles33.css">
+<title>Homepage</title>
+
+</head>
+
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">Inget business institute of Sweden</h2>
+      <img src="logo.png" width="90" height="90" style="margin-right:350px;"></img>
+      <div class="toggle"></div>
+    </header>
+    <video src="stnford1.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Never Stop </h2>
+      <h3> Exploring</a></h3>
+      <p>Start your future with us</p>
+      <a href="About us.html">Explore</a>
+    </div>
+  
+    <ul class="social">
+      <li>  <a href="https://www.facebook.com/" ><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="https://twitter.com/i/flow/login"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="https://www.instagram.com/"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="homepage.html">home</a></li>
+      <li><a href="About us.html">about us</a></li>
+      <li><a href="programs.html">programs</a></li>
+      <li><a href="events.html">events</a></li>
+      <li><a href="contact us.html">contact us</a></li>
+    </ul>
+  </div>
+
+  <script>
+  const menuToggle = document.querySelector('.toggle');
+       const showcase = document.querySelector('.showcase');
+
+       menuToggle.addEventListener('click', () => {
+         menuToggle.classList.toggle('active');
+         showcase.classList.toggle('active');
+       })
+
+
+  </script>
+
+</body>
+
+</html>
